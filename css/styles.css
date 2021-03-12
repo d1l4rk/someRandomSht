@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+section.laplace{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+}
+.karacho{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+.laplace h1 + p,.laplace h1 ~ .tatoo{
+    background-color: yellow;
+    font-size: 1.6rem;
+}
+.da h1 ~ p{
+    background-color: blue;
+    font-size: 20px;
+}
+.karacho p:nth-of-type(1){
+    background-color: blueviolet;
+}
